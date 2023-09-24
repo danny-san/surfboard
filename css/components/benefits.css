@@ -1,0 +1,24 @@
+.benefits {
+  display: flex;
+  justify-content: space-between;
+  gap: 0%;
+  padding: 0 5%;
+}
+
+.benefits__item {
+  flex: 1;
+  position: relative;
+}
+.benefits__item::before {
+  position: absolute;
+  content: "";
+  width: 67px;
+  height: 21px;
+  background: url("../../assets/img/benefits/circles-between.svg");
+  top: 25%;
+  left: 100%;
+  transform: translate(-50%, -50%);
+}
+.benefits__item:last-child::before {
+  display: none;
+}
