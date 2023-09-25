@@ -1,0 +1,12 @@
+.order-section {
+  background: url("../../assets/img/order/bg-order.jpg") center center no-repeat;
+  background-size: contain;
+  background-color: gray;
+  background-blend-mode: multiply;
+  color: #fff;
+}
+
+.order-section__title {
+  color: #fff;
+  margin-bottom: 58px;
+}

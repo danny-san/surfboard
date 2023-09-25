@@ -208,6 +208,92 @@
                 </div>
             </section>
 
+            <!-- Секция заказа -->
+            <section class="section order-section">
+                <div class="container">
+                    <h2 class="section__title order-section__title">Закажите доску</h2>
+
+                    <!-- Форма заказа -->
+                    <form class="form">
+                        <!-- Левая колонка -->
+                        <div class="form__col">
+                            <div class="form__row">
+                                <label class="form__block">
+                                    <div class="form__title">Имя</div>
+                                    <input type="text" class="form__input">
+                                </label>
+                                <label class="form__block">
+                                    <div class="form__title">Телефон</div>
+                                    <input type="text" class="form__input">
+                                </label>
+                            </div>
+
+                            <div class="form__row">
+                                <label class="form__block">
+                                    <div class="form__title">Улица</div>
+                                    <input type="text" class="form__input">
+                                </label>
+                            </div>
+
+                            <div class="form__row">
+                                <label class="form__block">
+                                    <div class="form__title">Дом</div>
+                                    <input type="text" class="form__input">
+                                </label>
+                                <label class="form__block">
+                                    <div class="form__title">Корпус</div>
+                                    <input type="text" class="form__input">
+                                </label>
+                                <label class="form__block">
+                                    <div class="form__title">Квартира</div>
+                                    <input type="text" class="form__input">
+                                </label>
+                                <label class="form__block">
+                                    <div class="form__title">Этаж</div>
+                                    <input type="text" class="form__input">
+                                </label>
+                            </div>
+                        </div>
+
+                        <!-- Правая колонка -->
+                        <div class="form__col">
+                            <div class="form__row">
+                                <label class="form__block">
+                                    <div class="form__title">Комментарий</div>
+                                    <textarea class="form__input form__input_textarea"></textarea>
+                                </label>
+                            </div>
+
+                            <!-- Радио-кнопки и чекбокс-->
+                            <div class="form__controls">
+                                <label class="radio">
+                                    <input type="radio" name="option" class="radio__elem">
+                                    <div class="radio__visible"></div>
+                                    <div class="radio__title">Оплата наличными</div>
+                                </label>
+                                <label class="radio">
+                                    <input type="radio" name="option" class="radio__elem">
+                                    <div class="radio__visible"></div>
+                                    <div class="radio__title">Оплата картой</div>
+                                </label>
+                            </div>
+                            <div class="form__controls">
+                                <label class="radio radio_checkbox">
+                                    <input type="checkbox" class="radio__elem">
+                                    <div class="radio__visible"></div>
+                                    <div class="radio__title">Не перезванивать</div>
+                                </label>
+                            </div>
+
+                            <!-- Кнопки -->
+                            <div class="form__btns">
+                                <input type="submit" value="Заказать" class="btn btn_theme_yellow">
+                                <input type="reset" value="Очистить" class="btn btn_theme_transparent">
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </section>
         </div>
     </div>
 </body>
