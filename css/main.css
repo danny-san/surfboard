@@ -76,7 +76,6 @@ footer {
 
 .hero {
   background: url("../assets/img/hero-background.png") center top no-repeat;
-  background-color: #1968B1;
   height: 100vh;
   max-height: 650px;
   color: #fff;
@@ -368,8 +367,6 @@ footer {
 .order-section {
   background: url("../../assets/img/order/bg-order.jpg") center center no-repeat;
   background-size: contain;
-  background-color: gray;
-  background-blend-mode: multiply;
   color: #fff;
 }
 
@@ -468,6 +465,41 @@ footer {
   background: #FEDB3F;
   position: absolute;
   border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.fixed-menu {
+  position: fixed;
+  top: 20%;
+  right: 3%;
+  z-index: 100;
+}
+
+.fixed-menu__item {
+  margin-bottom: 5px;
+}
+.fixed-menu__item_active .fixed-menu__link {
+  border-color: #fff;
+}
+
+.fixed-menu__link {
+  display: block;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  border: 1px solid transparent;
+  position: relative;
+}
+.fixed-menu__link::before {
+  content: "";
+  display: block;
+  width: 6px;
+  height: 6px;
+  background: #fff;
+  border-radius: 50%;
+  position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
